@@ -1,0 +1,126 @@
+.follow {
+    width: 100%;
+}
+
+.follow_main {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.follow_main_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow_main_div_p {
+    display: flex;
+    column-gap: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    align-items: center;
+    color: var(--dark);
+}
+
+.follow_main_div_p_span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.follow_main_divs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.follow_main_divs_product {
+    width: 49%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.follow_main_divs_product_text {
+    width: 73%;
+}
+
+.follow_main_divs_product_img {
+    width: 21%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow_main_divs_product_img img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: inherit;
+}
+
+.follow_main_divs_product_text_div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.follow_main_divs_product_text_div_p {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.follow_main_divs_product_text_div_p1 {
+    font-size: 11px;
+    color: var(--dark);
+}
+
+.follow_main_divs_product_text_p {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.follow_main_divs_product_img_p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--dark);
+}
+
+.follow_img {
+    width: 100%;
+}
+
+.follow_img img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.follow_img_p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray2);
+}
+
+@media screen and (max-width: 1024px) {
+    .follow_main_divs {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .follow_main_divs_product {
+        width: 100%;
+    }
+
+    .follow_main_divs_product_img {
+        width: 90px;
+    }
+}

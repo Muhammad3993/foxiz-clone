@@ -1,0 +1,28 @@
+.totop{
+    display: none;
+    transition: .5s;
+}
+.changetop{
+    display: flex;
+}
+.totop_main{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark);
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1000000;
+    transition: .3s;
+}
+.totop_main:hover{
+    background: var(--red);
+    transform: translateY(-5px);
+}

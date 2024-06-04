@@ -1,0 +1,62 @@
+/* settings */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  max-width: 1150px;
+  margin: auto;
+  padding: 0 10px;
+}
+.container1{
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+}
+:root{
+  --main: #0e0f12;
+  --dark: #191c20;
+  --red: #ff184e;
+  --red1: #f74c53;
+  --white: #fff;
+  --gray: #e4e4e4;
+  --gray1: #ebebeb;
+  --gray2: #ccc;
+  --gray3: #ccc;
+  --gray4: #e8e8e8;
+  --ink: rgb(117, 15, 219);
+  --ink1: #7e40b6; 
+  --blue: rgb(0, 106, 255);
+  --blue1: #7abdd7;
+  --blue2: #89abfc;
+  --blue3: #60d2f5;
+  --blue4: #5772FF;
+  --footer-bg:#FDFFFD;
+  --footer-texts-color: #676767;
+  --footer-input-color: #E7E7E7;
+  --gold: #ffc300;
+  --green: #64ce7c;
+}
+button,
+input{
+  border: none;
+  outline: none;
+}
+.dark{
+  --dark: #fff;
+  --white: #191c20;
+}
+
+body{
+  font-family: 'Encode Sans Condensed', sans-serif;
+  overflow-x: hidden;
+  background: var(--white);
+  color: var(--dark);
+  transition: 1s;
+}
