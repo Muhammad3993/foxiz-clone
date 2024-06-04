@@ -94,3 +94,11 @@
     left: 0;
     top: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .modal1_active,
+    .modal1,
+    .modal1_main{
+        width: 100% !important;
+    }
+}
